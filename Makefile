@@ -3,11 +3,11 @@ TARGET=paper
 
 .PHONY: FORCE
 $(TARGET).pdf: FORCE
-	./latexrun $(TARGET).tex
+	tectonic $(TARGET).tex
 
 .PHONY: clean
 clean:
-	./latexrun --clean-all
+	tectonic --clean-all
 
 .PHONY: view
 view: $(TARGET).pdf

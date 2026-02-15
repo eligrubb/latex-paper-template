@@ -4,9 +4,8 @@ This is the basic latex paper template I've been putting together slowly over
 the last few years. Whenever I am in charge of starting a new paper, I have
 found this to be a great launching point.
 
-This uses the awesome work of the
-[latexrun](https://github.com/aclements/latexrun) project to keep things simple
-for compiling code and dealing with dependencies and error messages.
+This template uses [`tectonic`](https://github.com/tectonic-typesetting/tectonic)
+for simple LaTeX compilation management.
 
 Make sure to set the name of your core `.tex` file in `Makefile`. By default,
 that is the `paper.tex` file. From there it should be relatively simple to
